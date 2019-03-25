@@ -21,3 +21,8 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/client/package-lock.json
+/.vscode/*
+/.idea/*
+/client/.idea/*
+/client/node_modules/*

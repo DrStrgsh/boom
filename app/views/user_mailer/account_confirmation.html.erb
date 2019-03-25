@@ -1,0 +1,5 @@
+<h1>Account confirmation</h1>
+
+<p>
+  Hello <%= @user.username %>, please confirm your email by this url: <%= link_to "Confirm", edit_api_confirmation_url(@user.confirmation_token, email: @user.email) %>
+</p>

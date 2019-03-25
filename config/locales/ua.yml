@@ -1,0 +1,48 @@
+ua:
+  global:
+    success:
+      users:
+        confirm_email: Підтвердьте свою електронну пошту.
+        destroy: Користувач успішно видалений.
+      reset_password:
+        create: Код для відновлення паролю надісланий на ваш емейл.
+        update: Пароль змінено.
+      follows:
+        create: Відслідковується.
+        destroy: Не відслідковується.
+      likes:
+        create: Вподобано.
+        destroy: Не вподобано.
+      posts:
+        destroy: Пост успішно видалений.
+      email_confirmation:
+        confirmed: Емейл успішно підтверджено.
+      comments:
+        create: Коментар успішно створено.
+        destroy: Комментр успішно видалено.
+    errors:
+      blank: Не може бути пустим.
+      unauthorized: Користувач не надається.
+      invalid_user: Не правильний користувач.
+      missing_toke: Токен не знайдено.
+      invalid_token: Не правильний токен.
+      invalid_credentials: Не правильні повноваження.
+      email_confirmation: Помилка з підтвердженням.
+      not_have_permissions: Немає дозволів.
+      comments:
+        create: Помилка з створенням коментаря.
+        destroy: Не можна видалити цей коментар.
+      posts:
+        create: Помилка з створенням поста.
+        update: Пост не оновлено.
+      reposts:
+        params: Помилка з параметрами репосту.
+        create: Репост не створено.
+      follows:
+        create: Помилка з підпискою.
+      reset_password:
+        create: Помилка з надсиланням коду відновлення паролю.
+        update: Пароль не відновлено.
+        expired: Строк дії закінчився.
+      users:
+        destroy: Користувач не видалений.

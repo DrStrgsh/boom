@@ -1,0 +1,26 @@
+.posts-head {
+  color: #00ccff;
+}
+
+hr {
+  width: 10em;
+}
+
+.single-post {
+  max-width: 25em;
+  border: solid;
+  border-size: 1px;
+  border-radius: 10px;
+  border-color: #379C9E;
+  margin: 10px;
+  padding: 7px;
+  background-color: #BBDBDC;
+}
+
+.posts-title, .posts-body {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; 
+}
