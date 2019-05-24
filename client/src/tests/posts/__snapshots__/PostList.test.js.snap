@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post list Post list data data snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`Post list Post list error error snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`Post list Post list fetching fetching snapshot 1`] = `ShallowWrapper {}`;

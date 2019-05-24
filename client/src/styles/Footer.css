@@ -1,0 +1,29 @@
+.footer-container {
+  border: solid 0px;
+  border-radius: 1em 1em 0 0;
+  background-color: #373A3F;
+}
+.h5-footer {
+  color: #ffffff;
+}
+
+.col-footer-left {
+  text-align: left; 
+}
+
+.col-footer-center {
+  text-align: center;
+}
+
+.col-footer-right {
+  text-align: right;
+}
+
+.p-footer {
+  color: #cdcec3;
+}
+
+.a-footer {
+  color: #cdcec3;
+  text-decoration: none;
+}

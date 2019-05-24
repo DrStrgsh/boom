@@ -1,0 +1,34 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude:
+    - 'bin//*'
+    - 'config//*'
+    - 'db//*'
+    - 'vendor//*'
+Metrics/LineLength:
+  Enabled: false
+Metrics/ModuleLength:
+  Enabled: true
+  Exclude:
+  - 'spec/cabot//*'
+Style/BlockDelimiters:
+  Enabled: false
+  Exclude:
+  - app/concepts/user_base/operation/create.rb
+Style/Documentation:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Layout/EmptyLineAfterMagicComment:
+  Enabled: false
+Metrics/BlockLength:
+  Exclude:
+    - 'spec//*'
+    - 'app/models/concerns/solution_state.rb'
+Style/LambdaCall:
+  Enabled: true
+  Exclude:
+    - 'app/controllers//*'
+    - 'app/concepts//*'
+    - 'app/workers//*'
+    - 'spec//*'
